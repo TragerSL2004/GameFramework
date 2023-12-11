@@ -151,10 +151,13 @@
     <ClCompile Include="ActorArray.cpp" />
     <ClCompile Include="CircleCollider.cpp" />
     <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Component.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="Transform2D.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -163,9 +166,12 @@
     <ClInclude Include="ActorArray.h" />
     <ClInclude Include="CircleCollider.h" />
     <ClInclude Include="Collider.h" />
+    <ClInclude Include="Component.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Sprite.h" />
+    <ClInclude Include="TestScene.h" />
     <ClInclude Include="Transform2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
